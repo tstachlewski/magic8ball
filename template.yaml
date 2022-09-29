@@ -8,7 +8,7 @@ Resources:
     Type: AWS::Serverless::Function
     Properties:
       Handler: magic8ball.lambda_handler
-      Runtime: python2.7
+      Runtime: python3.9
       Events:
         RestAPI:
           Type: Api
